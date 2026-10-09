@@ -1,0 +1,32 @@
+TWD BRASIL ONLINE — CÓDIGO DO SITE
+
+Esta cópia contém o código-fonte, estilos, imagens, mapas e configurações da primeira versão publicada em:
+https://twd-brasil-online.fizzybloom4.chatgpt.site
+
+COMO USAR
+1. Extraia o ZIP.
+2. Abra a pasta TWD-Brasil-Online no VS Code ou outro editor.
+3. Para rodar no computador, instale Node.js 22.13 ou superior e o pnpm (o projeto declara pnpm 11.25.0).
+4. No terminal, dentro da pasta do projeto:
+   pnpm install --frozen-lockfile
+   pnpm dev
+5. Abra o endereço local mostrado pelo terminal.
+
+Este é um projeto React/Vinext, não um único HTML. Para visualizá-lo no computador, é necessário iniciar o servidor local acima. Os pacotes de dependências serão baixados na instalação.
+
+ARQUIVOS PRINCIPAIS
+- app/page.tsx: página e interações do mapa.
+- app/globals.css: aparência do site.
+- app/layout.tsx: título, descrição e estrutura.
+- public/assets/: imagens e mapas.
+- package.json e pnpm-lock.yaml: dependências e comandos.
+
+ESTADO DESTA VERSÃO
+A página, o mapa e as regras de zonas seguras fazem parte da versão publicada. A autenticação real pelo Discord continua pendente de configuração e integração.
+
+O arquivo é uma cópia para guardar e editar. Baixá-lo não altera o site publicado. O ZIP não contém dependências instaladas, histórico Git, credenciais ou segredos locais.
+
+Para gerar a versão de produção:
+   pnpm build
+
+Mais informações técnicas estão no README.md do projeto.
