@@ -1,32 +1,16 @@
-TWD BRASIL ONLINE — CÓDIGO DO SITE
+VERSÃO PRONTA PARA VERCEL
 
-Esta cópia contém o código-fonte, estilos, imagens, mapas e configurações da primeira versão publicada em:
-https://twd-brasil-online.fizzybloom4.chatgpt.site
+1. Abra a pasta TWD-Brasil-Online-Vercel.
+2. Envie o conteúdo dessa pasta para a raiz do repositório twdbrasil no GitHub, substituindo os arquivos de mesmo nome, e confirme o commit na branch main. O package.json deve ficar na raiz.
+3. Na tela New Project da Vercel, mude Application Preset para Next.js.
+4. Mantenha Root Directory como ./ e os padrões de Build and Output Settings.
+5. Não é necessário preencher Environment Variables para esta versão.
+6. Clique em Deploy.
 
-COMO USAR
-1. Extraia o ZIP.
-2. Abra a pasta TWD-Brasil-Online no VS Code ou outro editor.
-3. Para rodar no computador, instale Node.js 22.13 ou superior e o pnpm (o projeto declara pnpm 11.25.0).
-4. No terminal, dentro da pasta do projeto:
-   pnpm install --frozen-lockfile
-   pnpm dev
-5. Abra o endereço local mostrado pelo terminal.
+Os comandos de instalação e build estão no vercel.json.
+O visual, as imagens, os mapas e as regras foram preservados.
+O login real do Discord continua pendente.
 
-Este é um projeto React/Vinext, não um único HTML. Para visualizá-lo no computador, é necessário iniciar o servidor local acima. Os pacotes de dependências serão baixados na instalação.
+Verificações: build de produção Next.js, TypeScript, página e assets servidos com HTTP 200 em servidor local. A publicação na sua conta Vercel ainda será feita por você.
 
-ARQUIVOS PRINCIPAIS
-- app/page.tsx: página e interações do mapa.
-- app/globals.css: aparência do site.
-- app/layout.tsx: título, descrição e estrutura.
-- public/assets/: imagens e mapas.
-- package.json e pnpm-lock.yaml: dependências e comandos.
-
-ESTADO DESTA VERSÃO
-A página, o mapa e as regras de zonas seguras fazem parte da versão publicada. A autenticação real pelo Discord continua pendente de configuração e integração.
-
-O arquivo é uma cópia para guardar e editar. Baixá-lo não altera o site publicado. O ZIP não contém dependências instaladas, histórico Git, credenciais ou segredos locais.
-
-Para gerar a versão de produção:
-   pnpm build
-
-Mais informações técnicas estão no README.md do projeto.
+Mais detalhes no README.md.
